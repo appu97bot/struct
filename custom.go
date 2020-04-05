@@ -28,11 +28,14 @@ log.Println("Person Details of e:",e);
 log.Println("Person Details of f:",f);
 log.Println("Person Details of g:",g);
 log.Println("Person Details of h:",h);
-a=person{Name:"Aparna",height:5.4,weight:63.4,id:"07A71A1297",designation:"Housewife"};
-b=person{Name:"Parvathi Surni",height:5.2,weight:70.5,id:"Mummy",designation:"House head"};
+a.Name="Aparna";
+b.weight=70.7;
 log.Println("Changed Details of a:",a);
 log.Println("Changed Details of b:",b);
 f=person{};
 log.Println("Deleted details:",f);
-
+f.Name="Kajol";
+log.Println(f);
+c.Name="Venkateswara Reddy";
+log.Println(c);
 }
